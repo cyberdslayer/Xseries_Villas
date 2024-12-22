@@ -1,0 +1,35 @@
+.responsiveFormContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.responsiveFormContainer h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.responsiveFormContainer p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-decoration-line: line-through;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.customButton button{
+    scale: 1.2;
+    margin-right: 10px;
+}
+
+@media (min-width: 1024px) {
+    .responsiveFormContainer {
+        display: none;
+    }
+}

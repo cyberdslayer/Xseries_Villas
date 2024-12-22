@@ -1,0 +1,62 @@
+.button {
+  min-width: 102px;
+  width: fit-content;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 13px 30px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* .button:hover {
+  border: 2px solid rgba(165, 145, 95, 1);
+  color: rgba(0, 0, 0, 1);
+} */
+
+.button:disabled {
+  border: 1px solid rgba(51, 51, 51, 1);
+  color: rgba(51, 51, 51, 1);
+}
+
+.buttonTransparent {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.buttonGold {
+  background: linear-gradient(
+    275.65deg,
+    #a5915f 10.11%,
+    #d2ba7f 55.01%,
+    #b49f6b 93.26%
+  );
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  border: none;
+}
+
+.buttonSquare {
+  background: linear-gradient(
+    275.65deg,
+    #a5915f 10.11%,
+    #d2ba7f 55.01%,
+    #b49f6b 93.26%
+  );
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+}
+
+@media (max-width: 1024px) {
+  .button {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    width: 154px;
+    padding: 10px;
+  }
+}
