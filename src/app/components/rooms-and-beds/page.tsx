@@ -1,5 +1,5 @@
 import { Lora } from "next/font/google";
-import List from "../list/page";
+import {List} from "../list/list";
 import RoomDetailsCard from "./room-details-card/roomDetailsCard";
 
 const lora = Lora({

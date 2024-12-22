@@ -1,4 +1,4 @@
-import List from "../list/page";
+import {List} from "../list/list";
 import { PhotoCard } from "./photo-card/photoCard";
 import { Lora } from "next/font/google";
 
