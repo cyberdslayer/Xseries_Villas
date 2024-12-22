@@ -4,13 +4,7 @@ import Image from "next/image"
 import ImageSelector from "@/assets/ImageTransition.svg"
 import DetailImage from "@/assets/DetailPhoto.svg"
 import styles from "./hero.module.css"
-import { Inter,  Playfair_Display,Lora  } from 'next/font/google';
-import { exportPages } from "next/dist/export/worker"
-
-// const playFair = Playfair_Display({
-//     subsets: ['latin'],
-//     weight: ['600', '500', '400'],
-// });
+import { Inter,Lora  } from 'next/font/google';
 
 const inter = Inter({
     subsets: ['latin'],
