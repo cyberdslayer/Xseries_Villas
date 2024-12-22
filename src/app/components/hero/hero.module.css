@@ -69,6 +69,33 @@
 
 @media (max-width: 700px) {
     .menu {
-        right: 50px;
+        right: 5px;
+        height: 48px;
+        width: 100%;
     }
+    .hero {
+        height: 324px;       
+    }
+    .title {
+        width: auto;
+        top: 145px;
+        font-size: 14px;
+    }
+
+    .location {
+        font-size: 14px;
+    }
+    .smallLogo {
+        height: 22px;
+        width: 74px;
+        background-size: 50px 20px;
+        
+        
+    }
+    .detail {
+        position: absolute;
+        right: 10px;
+        top: 205px;
+    }
+
 }
